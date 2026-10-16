@@ -2,10 +2,10 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'playclaft.aternos.me',
+        host: 'sharksucker.aternos.host:50116',
         port: 50116,
         username: 'Raboot',
-        version: false
+        version: '1.21.1'
     });
 
     bot.on('spawn', () => {
