@@ -5,7 +5,7 @@ function createBot() {
         host: 'playclaft.aternos.me',
         port: 50116,
         username: 'Raboot',
-        version: '26.3'
+        version: '1.21.3'
     });
 
     bot.on('spawn', () => {
