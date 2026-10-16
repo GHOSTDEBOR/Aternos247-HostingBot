@@ -5,7 +5,7 @@ function createBot() {
         host: 'skilfish.aternos.host',
         port: 50116,
         username: 'Raboot',
-        version: false
+        version: '1.21'
     });
 
     bot.on('spawn', () => {
