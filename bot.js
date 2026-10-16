@@ -2,7 +2,7 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'nyala.aternos.host',
+        host: 'skilfish.aternos.host',
         port: 50116,
         username: 'Raboot',
         version: false
