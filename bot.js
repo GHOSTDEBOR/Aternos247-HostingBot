@@ -5,7 +5,7 @@ function createBot() {
         host: 'playclaft.aternos.me', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 50116,                // Puerto predeterminado de Minecraft
         username: 'Raboot_24h',    // Nombre genérico del bot/NPC dentro del juego
-        version: false              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
+        version: 1.21.3              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
     });
 
     bot.on('spawn', () => {
