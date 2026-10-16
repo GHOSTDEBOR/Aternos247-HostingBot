@@ -5,7 +5,7 @@ function createBot() {
         host: 'nyala.aternos.host',
         port: 50116,
         username: 'Raboot',
-        version: '26.3'
+        version: false
     });
 
     bot.on('spawn', () => {
