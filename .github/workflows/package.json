@@ -1,6 +1,6 @@
 {
   "name": "bot-npc-minecraft",
-  "version": false,
+  "version": "1.21",
   "dependencies": {
     "mineflayer": "^4.20.0"
   }
