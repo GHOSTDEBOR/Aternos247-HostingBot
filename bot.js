@@ -5,7 +5,7 @@ function createBot() {
         host: 'playclaft.aternos.me',
         port: 50116,
         username: 'Raboot',
-        version: '1.21.3'
+        version: '1.21.2'
     });
 
     bot.on('spawn', () => {
@@ -38,12 +38,7 @@ function createBot() {
             }
 
             await new Promise(resolve => setTimeout(resolve, 1000));
-            bot.clearControlStates();
-            bot.setControlState('jump', true);
-            setTimeout(() => {
-                bot.setControlState('jump', false);
-                bot.clearControlStates();
-            }, 400);
+            bot.chat('/ping');
             console.log('[NPC] Acción anti-inactividad completada con éxito.');
 
         } catch (err) {
@@ -56,7 +51,7 @@ function createBot() {
         setTimeout(createBot, 10000);
     });
 
-    bot.on('error', (err) => console.log(`[NPC] Error crítico de red detectado: ${err}`));
+    bot.on('error', (err) => console.log(`[NPC] Error: ${err}`));
 }
 
 createBot();
